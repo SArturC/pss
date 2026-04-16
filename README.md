@@ -17,6 +17,6 @@ This repository contains a database and tools for the analysis and synthesis of 
 Example:
 
 ```matlab
-load('data/database_unificada.mat');
+load('data/database_pss.mat');
 
 system = db(1);
