@@ -20,3 +20,14 @@ Example:
 loaded = load('db_n2_m1_v3.mat');
 f = fieldnames(loaded);
 db = loaded.(f{1});
+
+% Matrices
+i   = 1 % i in [1, ..., 500]
+Acl = db(i).Acl;
+A   = db(i).A;
+Bu  = db(i).Bu;
+Bw  = db(i).Bw;
+C   = db(i).C;
+Du  = db(i).Du;
+Dw  = db(i).Dw;
+K   = db(i).K;
