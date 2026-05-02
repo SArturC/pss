@@ -17,6 +17,6 @@ This repository contains a database and tools for the analysis and synthesis of 
 Example:
 
 ```matlab
-load('data/database_pss.mat');
-
-system = db(1);
+loaded = load('db_n2_m1_v3.mat');
+f = fieldnames(loaded);
+db = loaded.(f{1});
